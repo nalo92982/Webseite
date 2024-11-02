@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine einfache Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Willkommen auf meiner Webseite</h1>
+</header>
+
+<nav>
+    <a href="#about">Über uns</a>
+    <a href="#services">Dienstleistungen</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Wir sind ein fiktives Unternehmen, das großartige Dienstleistungen anbietet.</p>
+    </section>
+
+    <section id="services">
+        <h2>Dienstleistungen</h2>
+        <p>Unsere Dienstleistungen umfassen Webentwicklung, Design und Beratung.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kannst uns per E-Mail unter info@beispiel.com erreichen.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mein Unternehmen</p>
+</footer>
+
+</body>
+</html>
